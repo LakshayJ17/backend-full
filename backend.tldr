@@ -1,0 +1,1312 @@
+{
+	"tldrawFileFormatVersion": 1,
+	"schema": {
+		"schemaVersion": 2,
+		"sequences": {
+			"com.tldraw.store": 5,
+			"com.tldraw.asset": 1,
+			"com.tldraw.camera": 1,
+			"com.tldraw.document": 2,
+			"com.tldraw.instance": 25,
+			"com.tldraw.instance_page_state": 5,
+			"com.tldraw.page": 1,
+			"com.tldraw.instance_presence": 6,
+			"com.tldraw.pointer": 1,
+			"com.tldraw.shape": 4,
+			"com.tldraw.asset.bookmark": 2,
+			"com.tldraw.asset.image": 5,
+			"com.tldraw.asset.video": 5,
+			"com.tldraw.shape.group": 0,
+			"com.tldraw.shape.text": 3,
+			"com.tldraw.shape.bookmark": 2,
+			"com.tldraw.shape.draw": 2,
+			"com.tldraw.shape.geo": 10,
+			"com.tldraw.shape.note": 9,
+			"com.tldraw.shape.line": 5,
+			"com.tldraw.shape.frame": 1,
+			"com.tldraw.shape.arrow": 7,
+			"com.tldraw.shape.highlight": 1,
+			"com.tldraw.shape.embed": 4,
+			"com.tldraw.shape.image": 5,
+			"com.tldraw.shape.video": 4,
+			"com.tldraw.binding.arrow": 1
+		}
+	},
+	"records": [
+		{
+			"id": "pointer:pointer",
+			"typeName": "pointer",
+			"x": 499.37613497701443,
+			"y": 1080.4206040862477,
+			"lastActivityTimestamp": 1761332169331,
+			"meta": {}
+		},
+		{
+			"x": 271.25128497819844,
+			"y": -440.59495914327493,
+			"z": 0.5076383244055434,
+			"meta": {},
+			"id": "camera:page:page",
+			"typeName": "camera"
+		},
+		{
+			"x": 433.6000061035156,
+			"y": 293.4000053405762,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:EOy2kz3239MIcOmCeblNT",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 81.625,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "server"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a58MzP9G",
+			"typeName": "shape"
+		},
+		{
+			"x": 48.66150743490124,
+			"y": 1094.5571503413416,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:3Or6_bFES4aAZk3NJ37WZ",
+			"type": "text",
+			"props": {
+				"color": "light-green",
+				"size": "m",
+				"w": 659.96094499315,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": false,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Http methods "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "GET - retreive resource "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "POST"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "PUT - replace resource "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "PATCH - change part of resource "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "DELETE"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "HEAD - response headers onlt / no msg body"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "OPTIONs - what opts available "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "TRACE - loopback test "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "HTTP STATUS CODE "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "1xx - Informational"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "2xx - Success"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "3xx - Redirection "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "4xx - Client error"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "5xx - Server error "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "100 - continue "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "200 - ok "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "400 - bad request "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "401 - unauthorized "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "404 - not found "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "500 - internal server error"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "504 "
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a8cMe7zl",
+			"typeName": "shape"
+		},
+		{
+			"x": 45.60000228881836,
+			"y": 490.1999931335449,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:Gi8F6fDnjMll2h4oovS3h",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "m",
+				"w": 888.9874877929688,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "http headers "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "metadata -> key value pair sent along with request and response "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "used in caching , authentication, manage state (guest/logged user etc)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "-> Request headers -> from client"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "-> response headers -> from server (codes 200, 404 etc)"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "-> representation headers -> encoding / compression"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "-> payload headers -> data "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Most common headers "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "Accept - application/json"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "User - agent"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "authorization"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "content-type"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "cookie"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "cache-control"
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a7UEMhCG",
+			"typeName": "shape"
+		},
+		{
+			"editingShapeId": null,
+			"croppingShapeId": null,
+			"selectedShapeIds": [
+				"shape:3Or6_bFES4aAZk3NJ37WZ"
+			],
+			"hoveredShapeId": null,
+			"erasingShapeIds": [],
+			"hintingShapeIds": [],
+			"focusedGroupId": null,
+			"meta": {},
+			"id": "instance_page_state:page:page",
+			"pageId": "page:page",
+			"typeName": "instance_page_state"
+		},
+		{
+			"x": 65.5999984741211,
+			"y": 177.60000610351562,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:KADsrAnWRIO0vW14mhJKB",
+			"type": "geo",
+			"props": {
+				"w": 156.00000762939453,
+				"h": 236.79998779296875,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a2UdVmQG",
+			"typeName": "shape"
+		},
+		{
+			"x": 120.80000305175781,
+			"y": 250.19999313354492,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:XO-bToPYadQnZAABIm4oD",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 70.48750305175781,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "client"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a4sRwiJV",
+			"typeName": "shape"
+		},
+		{
+			"x": 412,
+			"y": 166.40000915527344,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:bvvdf8eMvaWJl8wnZRa57",
+			"type": "geo",
+			"props": {
+				"w": 110.4000244140625,
+				"h": 295.20005798339844,
+				"geo": "rectangle",
+				"dash": "draw",
+				"growY": 0,
+				"url": "",
+				"scale": 1,
+				"color": "black",
+				"labelColor": "black",
+				"fill": "none",
+				"size": "m",
+				"font": "draw",
+				"align": "middle",
+				"verticalAlign": "middle",
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a3HC9jRV",
+			"typeName": "shape"
+		},
+		{
+			"x": 220.00001525878906,
+			"y": 28.60000991821289,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:WXNhJKyB4p6t0RBGjHmqz",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 260.76251220703125,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "HTTP CRASH COURSE "
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							}
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "a1jwF3Ul",
+			"typeName": "shape"
+		},
+		{
+			"meta": {},
+			"id": "page:page",
+			"name": "Page 1",
+			"index": "a1",
+			"typeName": "page"
+		},
+		{
+			"gridSize": 10,
+			"name": "",
+			"meta": {},
+			"id": "document:document",
+			"typeName": "document"
+		},
+		{
+			"x": 221.60000610351562,
+			"y": 276,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:zU2uLgKyU-IK5Wn9HARfn",
+			"type": "draw",
+			"props": {
+				"segments": [
+					{
+						"type": "free",
+						"points": [
+							{
+								"x": 0,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 2.4,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 6.4,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 12,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 20,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 29.6,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 38.4,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 49.6,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 58.4,
+								"y": 0,
+								"z": 0.5
+							},
+							{
+								"x": 69.6,
+								"y": -1.6,
+								"z": 0.5
+							},
+							{
+								"x": 77.6,
+								"y": -1.6,
+								"z": 0.5
+							},
+							{
+								"x": 87.2,
+								"y": -2.4,
+								"z": 0.5
+							},
+							{
+								"x": 96,
+								"y": -2.4,
+								"z": 0.5
+							},
+							{
+								"x": 104,
+								"y": -2.4,
+								"z": 0.5
+							},
+							{
+								"x": 111.2,
+								"y": -2.4,
+								"z": 0.5
+							},
+							{
+								"x": 115.2,
+								"y": -3.2,
+								"z": 0.5
+							},
+							{
+								"x": 119.2,
+								"y": -3.2,
+								"z": 0.5
+							},
+							{
+								"x": 121.6,
+								"y": -3.2,
+								"z": 0.5
+							},
+							{
+								"x": 124,
+								"y": -3.2,
+								"z": 0.5
+							},
+							{
+								"x": 124.8,
+								"y": -3.2,
+								"z": 0.5
+							},
+							{
+								"x": 127.2,
+								"y": -3.2,
+								"z": 0.5
+							},
+							{
+								"x": 128,
+								"y": -3.2,
+								"z": 0.5
+							},
+							{
+								"x": 128.8,
+								"y": -3.2,
+								"z": 0.5
+							},
+							{
+								"x": 129.6,
+								"y": -3.2,
+								"z": 0.5
+							},
+							{
+								"x": 130.4,
+								"y": -3.2,
+								"z": 0.5
+							},
+							{
+								"x": 131.2,
+								"y": -3.2,
+								"z": 0.5
+							},
+							{
+								"x": 132,
+								"y": -4,
+								"z": 0.5
+							},
+							{
+								"x": 132.8,
+								"y": -4,
+								"z": 0.5
+							},
+							{
+								"x": 134.4,
+								"y": -4,
+								"z": 0.5
+							},
+							{
+								"x": 136.8,
+								"y": -4.8,
+								"z": 0.5
+							},
+							{
+								"x": 138.4,
+								"y": -4.8,
+								"z": 0.5
+							},
+							{
+								"x": 140,
+								"y": -5.6,
+								"z": 0.5
+							},
+							{
+								"x": 141.6,
+								"y": -5.6,
+								"z": 0.5
+							},
+							{
+								"x": 142.4,
+								"y": -5.6,
+								"z": 0.5
+							},
+							{
+								"x": 145.6,
+								"y": -6.4,
+								"z": 0.5
+							},
+							{
+								"x": 147.2,
+								"y": -6.4,
+								"z": 0.5
+							},
+							{
+								"x": 148,
+								"y": -6.4,
+								"z": 0.5
+							},
+							{
+								"x": 148.8,
+								"y": -6.4,
+								"z": 0.5
+							},
+							{
+								"x": 149.6,
+								"y": -6.4,
+								"z": 0.5
+							},
+							{
+								"x": 150.4,
+								"y": -6.4,
+								"z": 0.5
+							},
+							{
+								"x": 150.4,
+								"y": -8,
+								"z": 0.5
+							},
+							{
+								"x": 152,
+								"y": -8,
+								"z": 0.5
+							},
+							{
+								"x": 152.8,
+								"y": -8,
+								"z": 0.5
+							},
+							{
+								"x": 153.6,
+								"y": -8,
+								"z": 0.5
+							},
+							{
+								"x": 154.4,
+								"y": -8.8,
+								"z": 0.5
+							},
+							{
+								"x": 155.2,
+								"y": -8.8,
+								"z": 0.5
+							},
+							{
+								"x": 156,
+								"y": -8.8,
+								"z": 0.5
+							},
+							{
+								"x": 156.8,
+								"y": -8.8,
+								"z": 0.5
+							},
+							{
+								"x": 157.6,
+								"y": -8.8,
+								"z": 0.5
+							},
+							{
+								"x": 158.4,
+								"y": -8.8,
+								"z": 0.5
+							},
+							{
+								"x": 159.2,
+								"y": -8.8,
+								"z": 0.5
+							},
+							{
+								"x": 159.2,
+								"y": -9.6,
+								"z": 0.5
+							},
+							{
+								"x": 160,
+								"y": -9.6,
+								"z": 0.5
+							},
+							{
+								"x": 160.8,
+								"y": -9.6,
+								"z": 0.5
+							},
+							{
+								"x": 161.6,
+								"y": -9.6,
+								"z": 0.5
+							},
+							{
+								"x": 162.4,
+								"y": -10.4,
+								"z": 0.5
+							},
+							{
+								"x": 163.2,
+								"y": -10.4,
+								"z": 0.5
+							},
+							{
+								"x": 164.8,
+								"y": -10.4,
+								"z": 0.5
+							},
+							{
+								"x": 165.6,
+								"y": -10.4,
+								"z": 0.5
+							},
+							{
+								"x": 166.4,
+								"y": -10.4,
+								"z": 0.5
+							},
+							{
+								"x": 167.2,
+								"y": -11.2,
+								"z": 0.5
+							},
+							{
+								"x": 168,
+								"y": -11.2,
+								"z": 0.5
+							},
+							{
+								"x": 169.6,
+								"y": -11.2,
+								"z": 0.5
+							},
+							{
+								"x": 171.2,
+								"y": -11.2,
+								"z": 0.5
+							},
+							{
+								"x": 171.2,
+								"y": -12,
+								"z": 0.5
+							},
+							{
+								"x": 172,
+								"y": -12,
+								"z": 0.5
+							},
+							{
+								"x": 173.6,
+								"y": -12,
+								"z": 0.5
+							},
+							{
+								"x": 174.4,
+								"y": -12,
+								"z": 0.5
+							},
+							{
+								"x": 175.2,
+								"y": -12,
+								"z": 0.5
+							},
+							{
+								"x": 176,
+								"y": -12,
+								"z": 0.5
+							},
+							{
+								"x": 176,
+								"y": -12.8,
+								"z": 0.5
+							},
+							{
+								"x": 176.8,
+								"y": -12.8,
+								"z": 0.5
+							},
+							{
+								"x": 177.6,
+								"y": -12.8,
+								"z": 0.5
+							},
+							{
+								"x": 178.4,
+								"y": -12.8,
+								"z": 0.5
+							},
+							{
+								"x": 179.2,
+								"y": -12.8,
+								"z": 0.5
+							},
+							{
+								"x": 180,
+								"y": -12.8,
+								"z": 0.5
+							},
+							{
+								"x": 180.8,
+								"y": -12.8,
+								"z": 0.5
+							},
+							{
+								"x": 180.8,
+								"y": -13.6,
+								"z": 0.5
+							},
+							{
+								"x": 182.4,
+								"y": -13.6,
+								"z": 0.5
+							},
+							{
+								"x": 183.2,
+								"y": -13.6,
+								"z": 0.5
+							},
+							{
+								"x": 184,
+								"y": -13.6,
+								"z": 0.5
+							},
+							{
+								"x": 184.8,
+								"y": -13.6,
+								"z": 0.5
+							},
+							{
+								"x": 185.6,
+								"y": -13.6,
+								"z": 0.5
+							}
+						]
+					}
+				],
+				"color": "black",
+				"fill": "none",
+				"dash": "draw",
+				"size": "m",
+				"isComplete": true,
+				"isClosed": false,
+				"isPen": false,
+				"scale": 1
+			},
+			"parentId": "page:page",
+			"index": "a65KonZV",
+			"typeName": "shape"
+		},
+		{
+			"followingUserId": null,
+			"opacityForNextShape": 1,
+			"stylesForNextShape": {
+				"tldraw:geo": "rectangle",
+				"tldraw:color": "light-green"
+			},
+			"brush": null,
+			"scribbles": [],
+			"cursor": {
+				"type": "move",
+				"rotation": 0
+			},
+			"isFocusMode": false,
+			"exportBackground": true,
+			"isDebugMode": false,
+			"isToolLocked": false,
+			"screenBounds": {
+				"x": 0,
+				"y": 0,
+				"w": 720,
+				"h": 702.4000244140625
+			},
+			"insets": [
+				false,
+				false,
+				true,
+				false
+			],
+			"zoomBrush": null,
+			"isGridMode": false,
+			"isPenMode": false,
+			"chatMessage": "",
+			"isChatting": false,
+			"highlightedUserIds": [],
+			"isFocused": true,
+			"devicePixelRatio": 1.25,
+			"isCoarsePointer": false,
+			"isHoveringCanvas": true,
+			"openMenus": [],
+			"isChangingStyle": false,
+			"isReadonly": false,
+			"meta": {},
+			"duplicateProps": null,
+			"id": "instance:instance",
+			"currentPageId": "page:page",
+			"typeName": "instance"
+		}
+	]
+}
