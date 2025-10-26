@@ -90,4 +90,5 @@ userSchema.methods.generateRefreshToken = function () {
     )
 }
 
+// Access token - shortlived , refresh token - long lived 
 export const User = mongoose.model("User", userSchema)
