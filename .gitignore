@@ -118,4 +118,5 @@ dist
 .pnp.*
 
 backend.tldr
+subschema.tldr
 # End of https://mrkandreev.name/snippets/gitignore-generator/#Node
